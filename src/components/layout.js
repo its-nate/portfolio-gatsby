@@ -1,51 +1,37 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
-
+import { Helmet } from "react-helmet"
 import Header from "./header"
+// import Footer from "./footer"
 import "./layout.css"
 
-const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+const M = typeof window !== `undefined` ? require("materialize-css") : null
 
-  return (
-    <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
-      </div>
-    </>
-  )
-}
+class Layout extends React.Component {
+  componentDidMount() {
+    setTimeout(function () {
+      const mobileNavElems = document.querySelectorAll(".sidenav")
+      const mobileNavInstances = M.Sidenav.init(mobileNavElems)
+    }, 500)
+  }
 
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
+  render() {
+    return (
+      <>
+        <Helmet>
+          {/* Materialize Icons */}
+          <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+          />
+          {/* Font Awesome */}
+          <script src="https://use.fontawesome.com/d450e8dc45.js"></script>
+        </Helmet>
+        <Header activePage={this.props.children[0].props.title} />
+        <main>{this.props.children}</main>
+        {/* <Footer /> */}
+      </>
+    )
+  }
 }
 
 export default Layout
