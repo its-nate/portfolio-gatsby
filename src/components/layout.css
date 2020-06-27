@@ -157,3 +157,33 @@ Footer
 .footer-text {
   color: #2c2c2c;
 }
+
+/* 
+=========================
+Media Breaks
+========================= 
+*/
+
+@media only screen and (max-width: 992px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 601px) {
+  .page-top-skills {
+    text-align: left;
+  }
+
+  .page-header {
+    font-size: 3rem;
+  }
+
+  .page-subhead {
+    font-size: 4.5rem;
+  }
+
+  .first-list {
+    margin-bottom: 1.5rem;
+  }
+}

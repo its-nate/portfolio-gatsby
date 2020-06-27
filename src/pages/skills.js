@@ -43,7 +43,7 @@ const Skills = () => (
       <div className="row">
         <div className="col s12 m6 page-body">
           <span className="skills-list-header">Core</span>
-          <ul className="skills-list">
+          <ul className="skills-list first-list">
             <li>HTML5</li>
             <li>CSS3</li>
             <li>JavaScript</li>
@@ -65,7 +65,7 @@ const Skills = () => (
       <div className="row">
         <div className="col s12 m6 page-body">
           <span className="skills-list-header">Data</span>
-          <ul className="skills-list">
+          <ul className="skills-list first-list">
             <li>MySQL</li>
             <li>MongoDB</li>
             <li>GraphQL</li>
