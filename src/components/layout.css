@@ -23,6 +23,16 @@ body {
 
 /* 
 =========================
+Utils
+========================= 
+*/
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+/* 
+=========================
 Nav
 ========================= 
 */
@@ -109,6 +119,25 @@ Page Styles
   text-decoration: underline;
 }
 
+.page-top-skills {
+  font-weight: 800;
+  margin-top: 0;
+}
+
+h3.page-body {
+  margin-top: 0;
+}
+
+.skills-list-header {
+  display: inline-block;
+  border-bottom: 1px solid black;
+  width: 70%;
+}
+
+.skills-list {
+  margin: 0 0 0 1.5rem;
+}
+
 /* 
 =========================
 Footer
@@ -116,15 +145,15 @@ Footer
 */
 
 .page-footer {
-    margin-top: 20px;
-    padding-top: 0;
-    background-color: white;
+  margin-top: 20px;
+  padding-top: 0;
+  background-color: white;
 }
 
 .page-footer .footer-copyright {
-    background-color: white;
+  background-color: white;
 }
 
 .footer-text {
-    color: #2c2c2c;
+  color: #2c2c2c;
 }
