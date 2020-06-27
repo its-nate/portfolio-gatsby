@@ -23,8 +23,6 @@ class Layout extends React.Component {
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
             rel="stylesheet"
           />
-          {/* Font Awesome */}
-          <script src="https://use.fontawesome.com/d450e8dc45.js"></script>
         </Helmet>
         <Header activePage={this.props.children[0].props.title} />
         <main>{this.props.children}</main>

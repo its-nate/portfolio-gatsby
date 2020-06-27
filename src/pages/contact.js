@@ -21,7 +21,7 @@ const Contact = () => (
           <p className="page-body mb-0">
             <a
               href="mailto:itsnate@hey.com"
-              class="page-link"
+              className="page-link"
             >
               itsnate@hey.com
             </a>

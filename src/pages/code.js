@@ -36,7 +36,7 @@ const Code = () => (
               href="https://www.holisticwebsolutions.com"
               target="_blank"
               rel="noreferrer"
-              class="page-link"
+              className="page-link"
             >
               Holistic Web Solutions
             </a>

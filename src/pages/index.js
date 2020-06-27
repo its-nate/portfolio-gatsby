@@ -25,7 +25,7 @@ const IndexPage = () => (
           </p>
           <p className="page-body">
             I currently do contract and subcontract work through my company,&nbsp; 
-            <a href="https://www.holisticwebsolutions.com" target="_blank" rel="noreferrer" class="page-link">Holistic Web Solutions</a>.
+            <a href="https://www.holisticwebsolutions.com" target="_blank" rel="noreferrer" className="page-link">Holistic Web Solutions</a>.
           </p>
         </div>
       </div>

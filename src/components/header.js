@@ -57,11 +57,11 @@ const Header = props => {
 
       {/* Desktop Nav */}
       <nav className="nav-center">
-        <div class="nav-wrapper">
-          <a href="#" data-target="slide-out" class="sidenav-trigger">
-            <i class="material-icons">menu</i>
+        <div className="nav-wrapper">
+          <a href="#" data-target="slide-out" className="sidenav-trigger">
+            <i className="material-icons">menu</i>
           </a>
-          <ul id="nav-mobile" class="hide-on-med-and-down">
+          <ul id="nav-mobile" className="hide-on-med-and-down">
             <li>const nav = [</li>
             <li>
               {activeNav === "home" ? (
