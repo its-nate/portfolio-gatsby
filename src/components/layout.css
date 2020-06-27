@@ -13,6 +13,14 @@ main {
   flex: 1 0 auto;
 }
 
+body {
+  font-family: Quicksand, sans-serif;
+}
+
+.container {
+  width: 55%;
+}
+
 /* 
 =========================
 Nav
@@ -27,7 +35,6 @@ nav {
 
 #nav-mobile,
 .nav-item {
-  font-family: Quicksand, sans-serif;
   font-size: 2rem;
   font-weight: 800;
   color: #2c2c2c;
@@ -64,7 +71,6 @@ nav.nav-center ul li a {
 
 .sidenav > li,
 .sidenav > li > a {
-  font-family: Quicksand, sans-serif;
   font-size: 2rem;
   font-weight: 800;
 }
@@ -72,6 +78,35 @@ nav.nav-center ul li a {
 .active-nav {
   text-decoration-color: #b42d12;
   text-decoration-line: underline;
+}
+
+/* 
+=========================
+Page Styles
+========================= 
+*/
+
+.page-header {
+  color: #b42d12;
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+.page-subhead {
+  color: #2c2c2c;
+  font-size: 5.5rem;
+  font-weight: 800;
+  margin-top: 0;
+}
+
+.page-body {
+  font-size: 2rem;
+}
+
+.page-link {
+  color: #2c2c2c;
+  text-decoration: underline;
 }
 
 /* 
