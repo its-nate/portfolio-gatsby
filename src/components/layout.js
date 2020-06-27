@@ -9,8 +9,11 @@ const M = typeof window !== `undefined` ? require("materialize-css") : null
 class Layout extends React.Component {
   componentDidMount() {
     setTimeout(function () {
-      const mobileNavElems = document.querySelectorAll(".sidenav")
-      const mobileNavInstances = M.Sidenav.init(mobileNavElems)
+      const sideNavElems = document.querySelectorAll(".sidenav")
+      const sideNavInstances = M.Sidenav.init(sideNavElems, {
+        preventScrolling: true,
+        draggable: false,
+      })
     }, 500)
   }
 

@@ -10,55 +10,55 @@ const Header = props => {
         <li>const nav = [</li>
         <li>
           {activeNav === "home" ? (
-            <Link to="/" className="nav-item active-nav">
+            <Link to="/" className="nav-item sidenav-close active-nav">
               home,
             </Link>
           ) : (
-            <Link to="/" className="nav-item">
+            <Link to="/" className="nav-item sidenav-close">
               home,
             </Link>
           )}
         </li>
         <li>
           {activeNav === "skills" ? (
-            <Link to="/skills" className="nav-item active-nav">
+            <Link to="/skills" className="nav-item sidenav-close active-nav">
               skills,
             </Link>
           ) : (
-            <Link to="/skills" className="nav-item">
+            <Link to="/skills" className="nav-item sidenav-close">
               skills,
             </Link>
           )}
         </li>
         <li>
           {activeNav === "code" ? (
-            <Link to="/code" className="nav-item active-nav">
+            <Link to="/code" className="nav-item sidenav-close active-nav">
               code,
             </Link>
           ) : (
-            <Link to="/code" className="nav-item">
+            <Link to="/code" className="nav-item sidenav-close">
               code,
             </Link>
           )}
         </li>
         <li>
           {activeNav === "about" ? (
-            <Link to="/about" className="nav-item active-nav">
+            <Link to="/about" className="nav-item sidenav-close active-nav">
               about,
             </Link>
           ) : (
-            <Link to="/about" className="nav-item">
+            <Link to="/about" className="nav-item sidenav-close">
               about,
             </Link>
           )}
         </li>
         <li>
           {activeNav === "contact" ? (
-            <Link to="/contact" className="nav-item active-nav">
+            <Link to="/contact" className="nav-item sidenav-close active-nav">
               contact
             </Link>
           ) : (
-            <Link to="/contact" className="nav-item">
+            <Link to="/contact" className="nav-item sidenav-close">
               contact
             </Link>
           )}
