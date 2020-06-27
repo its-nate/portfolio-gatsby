@@ -3,6 +3,12 @@
 Global Styles
 ========================= 
 */
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("/fonts/Ubuntu/")
+}
+
 #gatsby-focus-wrapper {
   display: flex;
   min-height: 100vh;
@@ -14,7 +20,6 @@ main {
 }
 
 body {
-  /* font-family: Quicksand, sans-serif; */
   font-family: "Ubuntu", sans-serif;
 }
 
