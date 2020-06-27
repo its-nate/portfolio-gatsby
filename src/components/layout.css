@@ -1,5 +1,20 @@
 /* 
 =========================
+Global Styles
+========================= 
+*/
+#gatsby-focus-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+/* 
+=========================
 Nav
 ========================= 
 */
@@ -29,14 +44,14 @@ nav {
 }
 
 nav.nav-center ul {
-    text-align: center;
+  text-align: center;
 }
 nav.nav-center ul li {
-    display: inline;
-    float: none;
+  display: inline;
+  float: none;
 }
 nav.nav-center ul li a {
-    display: inline-block;
+  display: inline-block;
 }
 
 .sidenav-trigger {
@@ -57,4 +72,24 @@ nav.nav-center ul li a {
 .active-nav {
   text-decoration-color: #b42d12;
   text-decoration-line: underline;
+}
+
+/* 
+=========================
+Footer
+========================= 
+*/
+
+.page-footer {
+    margin-top: 20px;
+    padding-top: 0;
+    background-color: white;
+}
+
+.page-footer .footer-copyright {
+    background-color: white;
+}
+
+.footer-text {
+    color: #2c2c2c;
 }
