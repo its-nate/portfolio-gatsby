@@ -53,7 +53,7 @@ nav {
 
 .nav-item:hover {
   background-color: white;
-  text-decoration-color: #b42d12;
+  text-decoration-color: #fda245;
   text-decoration-line: underline;
 }
 
@@ -87,7 +87,7 @@ nav.nav-center ul li a {
 }
 
 .active-nav {
-  text-decoration-color: #b42d12;
+  text-decoration-color: #fda245;
   text-decoration-line: underline;
 }
 
@@ -98,7 +98,7 @@ Page Styles
 */
 
 .page-header {
-  color: #b42d12;
+  color: #fda245;
   font-size: 4rem;
   font-weight: 700;
   margin-bottom: 0;

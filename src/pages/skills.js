@@ -17,6 +17,9 @@ const Skills = () => (
             I work mostly in JavaScript but have been known to dabble in some
             PHP.
           </p>
+          <p className="page-body">
+            For all the details, <a href="https://resume.itsnate.dev" target="_blank" rel="noreferrer" class="page-link">read and download my resume</a>.
+          </p>
         </div>
       </div>
       <div className="row">
