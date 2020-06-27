@@ -28,7 +28,6 @@ class Layout extends React.Component {
           />
           {/* Google Fonts */}
           <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet"></link>
-
         </Helmet>
         <Header activePage={this.props.children[0].props.title} />
         <main>{this.props.children}</main>

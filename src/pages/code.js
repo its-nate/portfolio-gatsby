@@ -19,11 +19,14 @@ const Code = () => (
               href="https://github.com/DearLorditsNate"
               target="_blank"
               rel="noreferrer"
-              class="page-link"
+              className="page-link"
             >
               GitHub
             </a>
-            .
+            , including the{" "}
+            <a href="https://github.com/DearLorditsNate/portfolio-gatsby" target="_blank" rel="noreferrer" className="page-link">
+              source code for this site.
+            </a>
           </p>
         </div>
       </div>
