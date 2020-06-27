@@ -1,5 +1,5 @@
-import { Link } from "gatsby"
 import React from "react"
+import { Link } from "gatsby"
 
 const Header = props => {
   let activeNav = props.activePage
@@ -38,6 +38,17 @@ const Header = props => {
           ) : (
             <Link to="/code" className="nav-item">
               code,
+            </Link>
+          )}
+        </li>
+        <li>
+          {activeNav === "about" ? (
+            <Link to="/about" className="nav-item active-nav">
+              about,
+            </Link>
+          ) : (
+            <Link to="/about" className="nav-item">
+              about,
             </Link>
           )}
         </li>
@@ -93,6 +104,17 @@ const Header = props => {
               ) : (
                 <Link to="/code" className="nav-item">
                   code,
+                </Link>
+              )}
+            </li>
+            <li>
+              {activeNav === "about" ? (
+                <Link to="/about" className="nav-item active-nav">
+                  about,
+                </Link>
+              ) : (
+                <Link to="/about" className="nav-item">
+                  about,
                 </Link>
               )}
             </li>
