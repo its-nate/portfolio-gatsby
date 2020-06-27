@@ -15,7 +15,7 @@ main {
 
 body {
   /* font-family: Quicksand, sans-serif; */
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .container {
@@ -140,7 +140,8 @@ h3.page-body {
 }
 
 .profile-img {
-  margin-top: 30px;
+  margin: 30px auto 0 auto;
+  width: 50%;
 }
 
 /* 
@@ -190,5 +191,10 @@ Media Breaks
 
   .first-list {
     margin-bottom: 1.5rem;
+  }
+
+  .profile-img {
+    margin: 30px auto 0 auto;
+    width: 100%;
   }
 }
