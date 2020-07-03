@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `itsNate`,
+    title: `its-nate`,
     description: `The things I build focus on their essence. I believe a site works best when it does what it’s supposed to in a simple, uncluttered way. I currently do contract and subcontract work through my company, Holistic Web Solutions.`,
     author: `Nate Micinski`,
   },
