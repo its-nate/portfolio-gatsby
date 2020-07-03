@@ -16,7 +16,7 @@ const Code = () => (
           <p className="page-body mb-0">
             Feel free to check out my{" "}
             <a
-              href="https://github.com/DearLorditsNate"
+              href="https://github.com/its-nate"
               target="_blank"
               rel="noreferrer"
               className="page-link"
@@ -24,7 +24,7 @@ const Code = () => (
               GitHub
             </a>
             , including the{" "}
-            <a href="https://github.com/DearLorditsNate/portfolio-gatsby" target="_blank" rel="noreferrer" className="page-link">
+            <a href="https://github.com/its-nate/portfolio-gatsby" target="_blank" rel="noreferrer" className="page-link">
               source code for this site.
             </a>
           </p>
