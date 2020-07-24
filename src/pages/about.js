@@ -41,8 +41,8 @@ const About = () => {
             </p>
             <p className="page-body">
               When I’m not banging out code I can be found hiking the local
-              foothills with my wife Debbie or being walked around the
-              neighborhood by our very opinionated dog Russell.
+              foothills with my wife Debbie or walking around the
+              neighborhood with our dog Russell.
             </p>
             <Img
               fluid={data.placeholderImage.childImageSharp.fluid}
