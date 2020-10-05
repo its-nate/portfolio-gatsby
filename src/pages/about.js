@@ -28,7 +28,7 @@ const About = () => {
         <div className="row">
           <div className="col s12">
             <p className="page-body">
-              I'm a Full Stack Web Developer living in Pasadena, CA.
+              I'm a Full Stack Web Developer living in California.
             </p>
             <p className="page-body">
               I’ve been writing code professionally for 2 years and can’t get
