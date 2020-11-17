@@ -18,7 +18,16 @@ const Skills = () => (
             PHP.
           </p>
           <p className="page-body">
-            For all the details, <a href="https://resume.itsnate.dev" target="_blank" rel="noreferrer" class="page-link">read and download my resume</a>.
+            For all the details,{" "}
+            <a
+              href="https://resume.itsnate.dev"
+              target="_blank"
+              rel="noreferrer"
+              class="page-link"
+            >
+              read and download my resume
+            </a>
+            .
           </p>
         </div>
       </div>
@@ -52,6 +61,7 @@ const Skills = () => (
             <li>JavaScript</li>
             <li>Node.js</li>
             <li>Express.js</li>
+            <li>PHP</li>
           </ul>
         </div>
         <div className="col s12 m6 page-body">
@@ -60,7 +70,7 @@ const Skills = () => (
             <li>React</li>
             <li>Gatsby</li>
             <li>Laravel</li>
-            <li>Drupal</li>
+            <li>Wordpress</li>
             <li>Bootstrap</li>
           </ul>
         </div>
