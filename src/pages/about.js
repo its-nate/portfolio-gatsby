@@ -40,9 +40,7 @@ const About = () => {
               </Link>
             </p>
             <p className="page-body">
-              When I’m not banging out code I can be found hiking the local
-              foothills with my wife Debbie or walking around the
-              neighborhood with our dog Russell.
+              When I’m not at the keyboard I can be found on the beach with my wife Debbie and our dog Russell.
             </p>
             <Img
               fluid={data.placeholderImage.childImageSharp.fluid}
