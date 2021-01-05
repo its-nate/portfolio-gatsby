@@ -14,7 +14,7 @@ const Skills = () => (
       <div className="row">
         <div className="col s12">
           <p className="page-body">
-            I work mostly in JavaScript but have been known to dabble in some
+            I work mostly in JavaScript but can hang with some
             PHP.
           </p>
           <p className="page-body">
@@ -39,10 +39,10 @@ const Skills = () => (
               <p className="page-body page-top-skills">React</p>
             </div>
             <div className="col s12 m4">
-              <p className="page-body page-top-skills">Gatsby</p>
+              <p className="page-body page-top-skills">Next</p>
             </div>
             <div className="col s12 m4">
-              <p className="page-body page-top-skills">GraphQL</p>
+              <p className="page-body page-top-skills">Laravel</p>
             </div>
           </div>
         </div>
@@ -59,19 +59,23 @@ const Skills = () => (
             <li>HTML5</li>
             <li>CSS3</li>
             <li>JavaScript</li>
-            <li>Node.js</li>
-            <li>Express.js</li>
+            <li>TypeScript</li>
+            <li>Node</li>
+            <li>Express</li>
             <li>PHP</li>
           </ul>
         </div>
         <div className="col s12 m6 page-body">
-          <span className="skills-list-header">Frameworks</span>
+          <span className="skills-list-header">Frameworks &amp; Platforms</span>
           <ul className="skills-list">
             <li>React</li>
             <li>Gatsby</li>
+            <li>Next</li>
             <li>Laravel</li>
             <li>Wordpress</li>
+            <li>Shopify</li>
             <li>Bootstrap</li>
+            <li>Tailwind</li>
           </ul>
         </div>
       </div>
@@ -91,6 +95,7 @@ const Skills = () => (
           <ul className="skills-list">
             <li>AWS</li>
             <li>Netlify</li>
+            <li>Vercel</li>
             <li>Heroku</li>
           </ul>
         </div>
