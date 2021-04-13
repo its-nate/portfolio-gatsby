@@ -24,7 +24,7 @@ const IndexPage = () => (
             way.
           </p>
           <p className="page-body">
-            I currently do contract and subcontract work through my company,&nbsp; 
+            I'm currently a Front-End Developer for <a href="https://andalways.com/" target="_blank" rel="noreferrer" className="page-link">AndAlways</a> and do contract and subcontract work through my company,&nbsp; 
             <a href="https://www.holisticwebsolutions.com" target="_blank" rel="noreferrer" className="page-link">Holistic Web Solutions</a>.
           </p>
         </div>
