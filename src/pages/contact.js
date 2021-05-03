@@ -20,10 +20,10 @@ const Contact = () => (
         <div className="col s12">
           <p className="page-body mb-0">
             <a
-              href="mailto:nmicinski@gmail.com"
+              href="mailto:nate@itsnate.net"
               className="page-link"
             >
-              nmicinski@gmail.com
+              nate@itsnate.net
             </a>
           </p>
         </div>
