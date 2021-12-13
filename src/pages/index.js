@@ -19,9 +19,7 @@ const IndexPage = () => (
       <div className="row">
         <div className="col s12">
           <p className="page-body">
-            The things I build focus on their essence. I believe a site works
-            best when it does what it’s supposed to in a simple, uncluttered
-            way.
+            The things I build focus on their essence. I believe technology works best in a simple, uncluttered way.
           </p>
           <p className="page-body">
             I'm currently a Front-End Developer for <a href="https://andalways.com/" target="_blank" rel="noreferrer" className="page-link">AndAlways</a> and do contract and subcontract work through my company,&nbsp; 

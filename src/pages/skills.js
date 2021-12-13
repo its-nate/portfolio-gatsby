@@ -42,7 +42,7 @@ const Skills = () => (
               <p className="page-body page-top-skills">Next</p>
             </div>
             <div className="col s12 m4">
-              <p className="page-body page-top-skills">Laravel</p>
+              <p className="page-body page-top-skills">TypeScript</p>
             </div>
           </div>
         </div>
@@ -56,8 +56,8 @@ const Skills = () => (
         <div className="col s12 m6 page-body">
           <span className="skills-list-header">Core</span>
           <ul className="skills-list first-list">
-            <li>HTML5</li>
-            <li>CSS3</li>
+            <li>HTML</li>
+            <li>CSS</li>
             <li>JavaScript</li>
             <li>TypeScript</li>
             <li>Node</li>
@@ -66,11 +66,12 @@ const Skills = () => (
           </ul>
         </div>
         <div className="col s12 m6 page-body">
-          <span className="skills-list-header">Frameworks &amp; Platforms</span>
+          <span className="skills-list-header">Frameworks/Platforms</span>
           <ul className="skills-list">
             <li>React</li>
-            <li>Gatsby</li>
             <li>Next</li>
+            <li>Gatsby</li>
+            <li>Electron</li>
             <li>Laravel</li>
             <li>Wordpress</li>
             <li>Shopify</li>
@@ -94,8 +95,8 @@ const Skills = () => (
           <span className="skills-list-header">DevOps</span>
           <ul className="skills-list">
             <li>AWS</li>
-            <li>Netlify</li>
             <li>Vercel</li>
+            <li>Netlify</li>
             <li>Heroku</li>
           </ul>
         </div>
