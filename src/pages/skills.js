@@ -20,7 +20,7 @@ const Skills = () => (
           <p className="page-body">
             For all the details,{" "}
             <a
-              href="https://itsnatesresume.itsnate.dev"
+              href="https://resume.itsnate.dev"
               target="_blank"
               rel="noreferrer"
               class="page-link"
