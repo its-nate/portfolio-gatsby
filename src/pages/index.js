@@ -22,7 +22,7 @@ const IndexPage = () => (
             The things I build focus on their essence. I believe technology works best in a simple, uncluttered way.
           </p>
           <p className="page-body">
-            I'm currently a Front-End Developer for <a href="https://andalways.com/" target="_blank" rel="noreferrer" className="page-link">AndAlways</a> and do contract and subcontract work through my company,&nbsp; 
+            I'm currently a Frontend Software Engineer for <a href="https://midspace.app/" target="_blank" rel="noreferrer" className="page-link">Midspace</a> and do contract and subcontract work through my company,&nbsp; 
             <a href="https://www.holisticwebsolutions.com" target="_blank" rel="noreferrer" className="page-link">Holistic Web Solutions</a>.
           </p>
         </div>
