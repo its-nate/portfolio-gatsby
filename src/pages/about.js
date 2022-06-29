@@ -28,7 +28,7 @@ const About = () => {
         <div className="row">
           <div className="col s12">
             <p className="page-body">
-              I'm a web developer living in San Diego, California.
+              I'm a web developer living in California.
             </p>
             <p className="page-body">
               I’ve been writing code professionally for 3 years and can’t get
@@ -40,7 +40,7 @@ const About = () => {
               </Link>
             </p>
             <p className="page-body">
-              When I’m not at the keyboard I can be found on the beach with my wife Debbie and our dog Russell.
+              When I’m not at the keyboard I can be found on a beach or mountain.
             </p>
             <Img
               fluid={data.placeholderImage.childImageSharp.fluid}
