@@ -39,7 +39,7 @@ const Skills = () => (
               <p className="page-body page-top-skills">React</p>
             </div>
             <div className="col s12 m4">
-              <p className="page-body page-top-skills">Next</p>
+              <p className="page-body page-top-skills">Redux</p>
             </div>
             <div className="col s12 m4">
               <p className="page-body page-top-skills">TypeScript</p>
