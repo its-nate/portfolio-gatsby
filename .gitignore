@@ -58,6 +58,9 @@ typings/
 .cache/
 public
 
+# webstorm ide
+/.idea
+
 # Mac files
 .DS_Store
 

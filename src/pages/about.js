@@ -28,10 +28,10 @@ const About = () => {
         <div className="row">
           <div className="col s12">
             <p className="page-body">
-              I'm a web developer living in California.
+              I'm a software engineer living in California.
             </p>
             <p className="page-body">
-              I’ve been writing code professionally for 3 years and can’t get
+              I’ve been writing code professionally for 5 years and can’t get
               enough. I’m always looking to take on new projects or
               opportunities—if you’re interested in working with me, make sure
               to{" "}
