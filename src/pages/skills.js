@@ -39,10 +39,10 @@ const Skills = () => (
               <p className="page-body page-top-skills">React</p>
             </div>
             <div className="col s12 m4">
-              <p className="page-body page-top-skills">Redux</p>
+              <p className="page-body page-top-skills">Next</p>
             </div>
             <div className="col s12 m4">
-              <p className="page-body page-top-skills">TypeScript</p>
+              <p className="page-body page-top-skills">Flutter</p>
             </div>
           </div>
         </div>
@@ -60,6 +60,7 @@ const Skills = () => (
             <li>CSS</li>
             <li>JavaScript</li>
             <li>TypeScript</li>
+            <li>Flutter</li>
             <li>Node</li>
             <li>Express</li>
             <li>PHP</li>
